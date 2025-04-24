@@ -1,0 +1,6 @@
+pages/UserLoggedInPage.class
+pages/LoginPage.class
+driver/DriverManager.class
+pages/MainPage.class
+pages/BasePage.class
+pages/CreateAccountPage.class
