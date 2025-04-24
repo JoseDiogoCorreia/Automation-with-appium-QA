@@ -1,6 +1,6 @@
-/Users/josecorreia/Downloads/MobileAutomationWithAppium/src/main/java/pages/BasePage.java
-/Users/josecorreia/Downloads/MobileAutomationWithAppium/src/main/java/pages/MainPage.java
-/Users/josecorreia/Downloads/MobileAutomationWithAppium/src/main/java/pages/UserLoggedInPage.java
-/Users/josecorreia/Downloads/MobileAutomationWithAppium/src/main/java/pages/LoginPage.java
-/Users/josecorreia/Downloads/MobileAutomationWithAppium/src/main/java/pages/CreateAccountPage.java
-/Users/josecorreia/Downloads/MobileAutomationWithAppium/src/main/java/driver/DriverManager.java
+/Users/josecorreia/Documents/Automation-with-appium-QA/src/main/java/pages/UserLoggedInPage.java
+/Users/josecorreia/Documents/Automation-with-appium-QA/src/main/java/pages/CreateAccountPage.java
+/Users/josecorreia/Documents/Automation-with-appium-QA/src/main/java/pages/LoginPage.java
+/Users/josecorreia/Documents/Automation-with-appium-QA/src/main/java/driver/DriverManager.java
+/Users/josecorreia/Documents/Automation-with-appium-QA/src/main/java/pages/MainPage.java
+/Users/josecorreia/Documents/Automation-with-appium-QA/src/main/java/pages/BasePage.java

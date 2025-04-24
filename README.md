@@ -1,4 +1,3 @@
-
 # Appium + Java + Cucumber - Mobile Automation Framework
 
 ## Requirements
@@ -6,20 +5,32 @@
 - Maven
 - Appium 2.x (install with npm)
 - Android emulator or device
+- **App under test must be installed on the device/emulator** (no APK install step is performed by tests)
 
 ## Setup & Run
 
 1. **Start Appium server:**
 
-```bash
-appium
-```
+   ```bash
+   appium
+   ```
 
-2. **Run tests:**
+2. **Ensure the app is already installed** on your emulator or device (e.g. via Android Studio or `adb install`).
 
-```bash
-mvn test
-```
+3. **Run all tests:**
+
+   ```bash
+   mvn test
+   ```
+
+4. **Run a specific feature file** directly:
+
+   ```bash
+   mvn test -Dcucumber.options="src/test/resources/features/account.feature"
+   ```
+
+ 
+.
 
 ## Project Structure
 
@@ -54,8 +65,10 @@ src
 After running tests, Cucumber generates reports in:
 
 - **Basic HTML Report:** Open `target/cucumber-report.html`
-- **Detailed Dashboard (if configured):** Open `target/cucumber-report-html/feature-overview.html`
+
 
 ## Notes
 
-Ensure that the Android emulator/device is correctly configured and available (`adb devices`) before running tests.
+- Verify your emulator/device is visible via `adb devices`.  
+- The test suite does **not** install the APK; it must already be present on the device.  
+- Use the `-Dcucumber.options` parameter to target individual feature files or tags.  
